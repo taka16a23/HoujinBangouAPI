@@ -7,9 +7,9 @@ r"""diff_houjin_api_client -- search by period for 法人番号API
 """
 from datetime import datetime
 
-from api_client import APIClient
-from address import ADDRESS
-from corporate_type import CORPORATE_TYPE
+from .api_client import APIClient
+from .address import ADDRESS
+from .corporate_type import CORPORATE_TYPE
 
 
 class DiffHoujinAPIClient(APIClient):

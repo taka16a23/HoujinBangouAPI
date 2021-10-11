@@ -5,8 +5,8 @@ r"""api_client -- api client for 法人番号API
 """
 import requests
 
-from url_builder import URLBuilder
-from api_response import Response
+from .url_builder import URLBuilder
+from .api_response import Response
 
 
 class APIClient(object):

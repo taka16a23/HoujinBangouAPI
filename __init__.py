@@ -4,10 +4,10 @@ r"""Name: __init__.py
 
 
 """
-from api_client import APIClient
-from houjinbangou_api_client import HoujinBangouAPIClient
-from diff_houjin_api_client import DiffHoujinAPIClient
-from houjinname_api_client import HoujinNameAPIClient
+from .api_client import APIClient
+from .houjinbangou_api_client import HoujinBangouAPIClient
+from .diff_houjin_api_client import DiffHoujinAPIClient
+from .houjinname_api_client import HoujinNameAPIClient
 
 __version__ = "0.0.1"
 

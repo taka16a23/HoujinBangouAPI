@@ -3,7 +3,7 @@
 r"""houjinbangou_api_client -- search number client for 法人番号API
 
 """
-from api_client import APIClient
+from .api_client import APIClient
 
 
 class HoujinBangouAPIClient(APIClient):
