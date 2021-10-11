@@ -9,7 +9,7 @@
 ## 利用方法
 法人番号検索
 ```python
-	import HoujinBangouAPI
+  import HoujinBangouAPI
   # 取得したアプリケーションID
   application_id = 'xxxxxxxxxxxxx' 
   # 取得データタイプを指定 ここでは xml unicode
@@ -27,7 +27,6 @@
 期間検索
 ```python
   import HoujinBangouAPI
-  
   # 取得したアプリケーションID
   application_id = 'xxxxxxxxxxxxx' 
   # 取得データタイプを指定 ここでは xml unicode
@@ -46,7 +45,6 @@
 法人名検索
 ```python
   import HoujinBangouAPI
-
   # 取得したアプリケーションID
   application_id = 'xxxxxxxxxxxxx' 
   # 取得データタイプを指定 ここでは xml unicode
