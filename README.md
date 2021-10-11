@@ -49,7 +49,7 @@
   # 取得したアプリケーションID
   application_id = 'xxxxxxxxxxxxx' 
   # 取得データタイプを指定 ここでは xml unicode
-  data_type = HoujinBangouAPI.DiffHoujinAPIClient.DATA_TYPE.XML_UNICODE
+  data_type = HoujinBangouAPI.HoujinNameAPIClient.DATA_TYPE.XML_UNICODE
   # 検索法人名 必須
   name = "国税庁"
   # インスタンス作成
