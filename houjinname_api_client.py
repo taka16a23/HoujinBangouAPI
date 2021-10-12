@@ -320,7 +320,7 @@ class HoujinNameAPIClient(APIClient):
         @Error:
 
         """
-        if isinstance(a_from, (string, )):
+        if isinstance(a_from, (str, )):
             self.set_parameter('from', a_from)
         if isinstance(a_from, (datetime, )):
             self.set_parameter('from', a_from.strftime('%Y-%m-%d'))
@@ -351,7 +351,7 @@ class HoujinNameAPIClient(APIClient):
 
         最大日数は 50 日
         """
-        if isinstance(a_to, (basestring, )):
+        if isinstance(a_to, (str, )):
             self.set_parameter('to', a_to)
         if isinstance(a_to, (datetime, )):
             self.set_parameter('to', a_to.strftime('%Y-%m-%d'))
