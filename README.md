@@ -10,7 +10,7 @@
 バージョンは4のみ対応となります。
 
 ## 依存関係
-・request
+・pip install requests
 
 ## 利用方法
 法人番号検索
